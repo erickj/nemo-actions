@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Restore Missing Files...
+Comment=Check for missing files or directories from backups
+Exec=/usr/bin/deja-dup --restore-missing '%F'
+Icon-Name=folder
+Selection=none
+Extensions=any;
+Dependencies=/usr/bin/deja-dup

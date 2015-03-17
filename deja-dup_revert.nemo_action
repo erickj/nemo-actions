@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Revert to Previous Version...
+Comment=Revert to a previous version from backups
+Exec=/usr/bin/deja-dup --restore '%F'
+Icon-Name=folder
+Selection=notnone
+Extensions=any;
+Dependencies=/usr/bin/deja-dup
