@@ -1,11 +1,16 @@
 [Nemo Action]
+
 Active=true
 Name=Restore Missing Files...
-Name[fr]=Restaurer des fichiers manquants...
 Comment=Check for missing files or directories from backups
-Comment[fr]=Vérifie la présence de fichiers ou répertoires manquants depuis les sauvegardes
 Exec=/usr/bin/deja-dup --restore-missing '%F'
 Icon-Name=document-revert-rtl
 Selection=none
 Extensions=any;
 Dependencies=/usr/bin/deja-dup
+
+Name[cs]=Obnovit chybějící soubory...
+Name[fr]=Restaurer des fichiers manquants...
+Comment[cs]=Hledat chybějící soubory nebo složky v záloze
+Comment[fr]=Vérifie la présence de fichiers ou répertoires manquants depuis les sauvegardes
+

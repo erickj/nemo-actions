@@ -1,11 +1,15 @@
 [Nemo Action]
+
 Active=true
 Name=Revert to Previous Version...
-Name[fr]=Restaurer une version précédente...
 Comment=Revert to a previous version from backups
-Comment[fr]=Restaure une version précédente depuis les sauvegardes
 Exec=/usr/bin/deja-dup --restore '%F'
 Icon-Name=document-revert
 Selection=notnone
 Extensions=any;
 Dependencies=/usr/bin/deja-dup
+
+Name[cs]=Vrátit předchozí verzi...
+Name[fr]=Restaurer une version précédente...
+Comment[cs]=Vrátit se k předchozí verzi ze zálohy
+Comment[fr]=Restaure une version précédente depuis les sauvegardes
